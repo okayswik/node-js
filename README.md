@@ -1,25 +1,16 @@
 # node.js
 
-## Note Taking App
+## Require Function
 
-1. Importing Node Modules
+1. require() is required when calling different fucntion to work.
 
-- Fundamentals of Node.js
+# Module System
 
-# Module 1
+- module.exports is used to allow to access different things
 
-- File Systems
-
-methods
-
-fs.writeFile to write file in a File System
-
-- async
-- sync (fs.writeFileSync)
-
-When updating a file or adding a file via node command in the code.
-The file system should be made a varible/const.
+We used module.exports = name; in utils.js
+to call const name = require("./utils.js"); in app js
 
 # Challenge
 
-Use appendFileSync to append any line to the "notes.txt" file. Run the script.
+Define and use a function in new file
