@@ -1,16 +1,25 @@
 # node.js
 
-## Require Function
+## File System
 
-1. require() is required when calling different fucntion to work.
+Process has a property, a big object which includes argv
+
+It's best to look for an npm package that helps with parsing the strings in code.
+
+## Parsing with Yargs
+
+- console.log(yargs.argv);
+
+input:
+
+- node app.js add --title="things to buy"
+
+output:
+
+- { \_: [ 'add' ], title: 'things to buy', '$0': 'app.js' }
 
 # Module System
 
-- module.exports is used to allow to access different things
-
-We used module.exports = name; in utils.js
-to call const name = require("./utils.js"); in app js
-
 # Challenge
 
-Install chalk, one of npm packages to help highlight of your code.
+- Create new command for yargs and test out is the result is correct or not
