@@ -13,4 +13,4 @@ to call const name = require("./utils.js"); in app js
 
 # Challenge
 
-Define and use a function in new file
+Install chalk, one of npm packages to help highlight of your code.
