@@ -2,6 +2,7 @@ const chalk = require("chalk");
 const yargs = require("yargs");
 
 //customize yargs
+
 yargs.version("1.1.0");
 
 //add, remove, read, list
