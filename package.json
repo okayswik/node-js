@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/okayswik/node-js#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.7"
