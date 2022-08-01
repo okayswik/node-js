@@ -1,18 +1,9 @@
 ## node-js
 
-- setTimeout() is used to know how asycn is used.
+- Chat APP
 
-# Call Stack - Callback Queue
+## Websockets Protocol (bi-directional)
 
-- Main function always gets
-
-## HTTP Requests
-
-- core to make real life application
-- to send mail, message anyone over internet.
-
-- fire request, get response
-
-## Weather API
-
-b52a0d7adf4cc3beec9ae17dc16b502f
+- allows for full duplex communication
+- seperate protocol from HTTP
+- Connection beteween CLient and server
